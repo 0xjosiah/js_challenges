@@ -1,0 +1,55 @@
+html,
+body {
+    margin: 0;
+    padding: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+h2 {
+    margin: 0;
+}
+
+#open-modal {
+}
+
+#close-modal {
+}
+
+#modal {
+    background-color: #dbb946;
+    max-width: 50vw;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.btn {
+    color: #dbb946;
+    background-color: #1f2e8f;
+    font-weight: 700;
+    padding: 8px 26px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background: radial-gradient(farthest-corner at 50% 75%, #dbb946, #8F7211);
+    color: #fff
+}
+
+colors [
+    #1F2E8F
+    #6B7FFF
+    #475ADB
+    #8F7211
+    #DBB946
+]
