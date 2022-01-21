@@ -8,20 +8,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script src="index.js"></script>
+    <script async src="index.js"></script>
     <title>JS Challenges - Scrimba</title>
 </head>
 <body>
+    <h1>👇Search for contact details!👇</h1>
+    <button class="btn" id="open-modal">Contact Me  📨</button>
     <div id="overlay">
-        <div id="modal">
+        <div class="" id="modal">
             <h2>Contact Details</h2>
             <p>Homer Simpton, <br>
             742 Evergreen Terrace <br>
             (no spam please!)😀</p>
             <button class="btn" id="close-modal">Close 👋 </button>
         </div>
-        <h1>👇Click to reveal Homer's contact details!👇</h1>
-        <button class="btn" id="open-modal">Contact Me  📨</button>
-    </div>    
+    </div>
+    <div class="search-container">
+        <input type="text" id="usernameInput">
+    </div>
+    <div class="search-results">
+        <ul id="results">
+            <li class="name">Karl</li>
+            <li class="name">Per</li>
+            <li class="name">Katie</li>
+            <li class="name">Lupe</li>
+            <li class="name">Katherine</li>
+            <li class="name">Kelly</li>
+            <li class="name">Kurt</li>
+            <li class="name">Fred</li>
+        </ul>
+    </div>
 </body>
 </html>
